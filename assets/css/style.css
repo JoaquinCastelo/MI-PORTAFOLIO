@@ -1,0 +1,307 @@
+/* estilos de letra */
+
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* colores fondo */
+.bg-blanquito{
+    background-color: #FDFFE2;
+}
+
+.bg-azulclarito{
+    background-color: #83B4FF;
+}
+
+.bg-azul{
+    background-color: #5A72A0;
+}
+
+.bg-marino{
+    background-color: #1A2130;
+}
+
+.bg-black-t{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-white{
+    color:white;
+}
+
+.text-colorsito{
+    color:#83B4FF;
+}
+/* inicio */
+
+#hero {
+    position: relative;
+    padding: 160px 0px 50px 0px;
+    min-height: 100vh;
+}
+
+#habilidades{
+    position: relative;
+    padding: 160px 0px 50px 0px;
+    min-height: 100vh;
+}
+
+#acerca{
+    padding: 50px 0px 50px 0px;
+    background-size: contain;
+    min-height: 50vh;
+}
+
+#portafolio{
+    position: relative;
+    padding: 160px 0px 50px 0px;
+    min-height: 100vh;
+}
+
+#contactame{
+    position: relative;
+    padding: 160px 0px 50px 0px;
+    min-height: 100vh;
+}
+
+#textespecial{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #portafolio {
+      min-height: 80vh;
+    }
+    #textespecial{
+        display: block;
+    }
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.avatar {
+    width: 20rem;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+
+.man{
+    width:max-content;
+    height: auto;
+}
+
+.cind{
+    width:max-width;
+    height:auto;
+}
+
+.med{
+    height:50vh;
+}
+
+/* General styles for the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the input group */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styles for the input fields */
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Styles for the submit button */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+a i.bi {
+    color: inherit; /* Mantiene el color del icono según el contexto del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+}
+a {
+    color: inherit; /* Mantiene el color del enlace según el contexto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.logos{
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .logos {
+        font-size: 2rem;
+    }
+}
+
+/* [data-animation="show"] {
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.6s ease-in 0.3s, transform 0.6s ease-in 0.3s;
+}
+
+.unset {
+    opacity: 1;
+    transform: scale(1);
+} */
+
+
+[data-animation="show"]{
+    opacity:0;
+    transform: scale(0);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: scale(1);
+}
+
+.unset{
+    opacity: var(--opacity);
+    transform: var(--transform);
+}

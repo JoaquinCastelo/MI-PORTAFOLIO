@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div  class="container-fluid">
+            <a href="/" class="navbar-brand">SergioCM</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#hero" class="nav-link active" aria-current="page">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#acerca" class="nav-link" aria-current="page">
+                            Acerca de mí
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#habilidades" class="nav-link" >
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#portafolio" class="nav-link" >
+                            Portafolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contactame" class="nav-link" >
+                            Contactame
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="bg-blanquito">
+        <div id="inicio" class="container  text-center"> 
+            <div class="row titulo kanit-bold">
+                <h1>Estudiante de Ciencia de la Computación</h1>
+            </div>
+            <div class="row frase kanit-semibold-italic">
+                <p>Si lo puedes imaginar, lo puedes programar.<br>-Alejandro Taboada</p>
+            </div>
+            <div class="container">
+                <img id="imagencambiante" src="assets/images/avatar.png " class="img-fluid avatar" onclick="changeImage()">
+            </div>
+            <div class="row titulo kanit-bold p-5">
+                <h1>¡Hola, soy Sergio!</h1>
+            </div>
+            <div class="row titulo kanit-medium">
+                <h1>Me gusta aprender cosas nuevas y estoy dispuesto a enfrentarme con grandes desafíos. </h1>
+            </div>
+        </div>
+    </section>
+    
+    <section id="acerca" class="bg-blanquito">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2 kanit-medium">
+                    <h3>Acerca de mi</h3>
+                    <p>¡Hola a todos! Mi nombre es Sergio, tengo 18 años y actualmente estoy estudiando Ciencia de la Computación en la Universidad Nacional de San Agustín (UNSA).
+
+                        Desde siempre he tenido una gran pasión por aprender cosas nuevas, aunque a veces pueda ser complicado al inicio. Este entusiasmo por el conocimiento me ha llevado a explorar diversos campos dentro de la tecnología, y en particular, me gustaría desarrollar mi carrera en el ámbito del desarrollo de videojuegos o en el desarrollo web, tanto en front-end como en back-end.
+                        
+                        Además de mis estudios, tengo varios hobbies que me permiten desconectar y relajarme. Me encanta cocinar y experimentar con nuevas recetas, lo que también es una forma de creatividad para mí. Soy un ávido lector y siempre estoy buscando nuevos libros que expandan mis horizontes. También disfruto mucho practicando tiro con arco, un deporte que me ayuda a mejorar mi concentración y precisión.
+                        </p>
+                </div>
+                <div class="col-12 col-md-6 mb-2">
+                    <img src="assets/images/man.gif " class="img-fluid man">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="bg-azulclarito pt-2">
+        <div class="container"> 
+            <div class="row titulo kanit-bold p-5 text-white">
+                <h1>&lt;Mis habilidades&gt;</h1>
+            </div>
+            <div class="row kanit-medium">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-2 contefect">
+                    <div class="card bg-azul manf" data-animation="show">
+                        <img src="assets/images/programar.jpeg" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Programar</h5>
+                            <p class="card-text kanit-regular">Tengo una pasión por la programación, dentro de la universidad se me proponen varios retos en el lenguaje C++, los cuales ponean a prueba mi destreza. Es entretenido programar, hasta lo considero un arte ya que tienes que estar atento con los pequeños detalles o sino podria no funcionar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-2 contefect">
+                    <div class="card bg-azul manf" data-animation="show">
+                        <img src="assets/images/lider.webp" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Liderazgo</h5>
+                            <p class="card-text kanit-regular">Tengo una pasión por el liderazgo. Dentro de la universidad, se me presentan diversos retos que requieren coordinar equipos y gestionar proyectos. Cada situación pone a prueba mi capacidad para motivar a los miembros del equipo y guiarlos hacia el logro de nuestros objetivos comunes. Es emocionante liderar, ya que implica estar atento a las necesidades de cada persona, fomentar la colaboración y asegurarse de que todos trabajen en armonía para alcanzar el éxito. Para mí, el liderazgo es un arte que combina empatía, comunicación efectiva y toma de decisiones estratégicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-2 contefect">
+                    <div class="card bg-azul manf" data-animation="show">
+                        <img src="assets/images/scrat.jpg" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Scratch</h5>
+                            <p class="card-text kanit-regular">Tengo una pasión por Scratch. Durante mis estudios, he tenido la oportunidad de crear varios proyectos interactivos usando esta herramienta. Estos proyectos no solo ponen a prueba mi creatividad, sino también mi habilidad para resolver problemas de manera visual y lúdica. Programar en Scratch es divertido, ya que me permite diseñar y animar mis ideas de forma intuitiva. Además, considero que es una excelente plataforma para aprender los fundamentos de la programación, ya que se debe prestar atención a la lógica y a los pequeños detalles para que las creaciones funcionen correctamente.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-2 contefect">
+                    <div class="card bg-azul manf" data-animation="show">
+                        <img src="assets/images/comp.jpg" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h5 class="card-title">Pensamiento Computacional</h5>
+                            <p class="card-text kanit-regular">Tengo una pasión por el pensamiento computacional. A lo largo de mi formación, me enfrento a problemas complejos que requieren descomponerlos en partes más manejables y abordarlos de manera sistemática. Este proceso pone a prueba mi capacidad para analizar, planificar y ejecutar soluciones eficaces. Disfruto aplicando el pensamiento computacional, ya que es un enfoque que combina lógica, creatividad y precisión. Considero que esta habilidad es fundamental no solo para la programación, sino para resolver cualquier tipo de problema, ya que permite abordar los desafíos de manera estructurada y eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="portafolio" class="bg-marino pt-2">
+        <div class="container">
+            <div class="row titulo kanit-bold p-5 text-white text-center">
+                <h1>&lt;Mi Portafolio&gt;</h1>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner kanit-semibold">
+                  <div class="carousel-item active">
+                    <img src="assets/images/pag1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black-t">
+                      <h5>PÁGINA TOP ACUÁTICO - FULL HTML</h5>
+                      <p>Mira el código de cómo se hizo esta página! Dale <a href="https://github.com/SergioCM17/PagMundoAcuatico">aqui</a></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/pag2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black-t">
+                      <h5>PÁGINA WEB DE DANZA - FULL HTML,CSS, Y BOOTSTRAP</h5>
+                      <p>Mira el código de cómo se hizo esta página! Dale <a href="https://github.com/SergioCM17/P-gina-de-baile">aqui</a></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/pag3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block bg-black-t">
+                      <h5>PÁGINA DE FORMULARIO - FULL JAVACRIPT</h5>
+                      <p>Mira el código de cómo se hizo esta página! Dale <a href="https://github.com/SergioCM17/FormJavaScript">aqui</a></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="row titulo kanit-bold p-5 text-white text-left" id="textespecial">
+                <h3>-PÁGINA TOP ACUÁTICO - FULL HTML, DALE <a href="https://github.com/SergioCM17/PagMundoAcuatico" class="text-colorsito">AQUÍ</a></h3>
+                <h3>-PÁGINA WEB DE DANZA - FULL HTML,CSS, Y BOOTSTRAP, DALE <a href="https://github.com/SergioCM17/P-gina-de-baile" class="text-colorsito">AQUÍ</a></h3>
+                <h3>-PÁGINA DE FORMULARIO - FULL JAVACRIPT, DALE <a href="https://github.com/SergioCM17/FormJavaScript" class="text-colorsito">AQUÍ</a></h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactame" class="bg-blanquito pt-2">
+        <div class="container contactstyle">
+            <div class="row titulo kanit-bold p-5 text-center">
+                <h1>&lt;Contactame&gt;</h1>
+            </div>
+            <div class="row">
+
+                <div class="col-12 col-md-6 mb-2">
+                    <div class="container text-center">
+                        <div class="imagensita">
+                            <img src="assets/images/mundo.gif" class="img-fluid man">
+                        </div>
+                        <div class="logos">
+                            <a href="https://www.facebook.com/sergio.cm.3154" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://github.com/SergioCM17" target="_blank"><i class="bi bi-github "></i></a>
+                            <a href="https://youtube.com/@lecherochan3089?si=ZIDW072Xvl5e5BwO" target="_blank"><i class="bi bi-youtube "></i></a>
+                            <a href="https://www.linkedin.com/in/sergio-calcina-muchica-99a125241/" target="_blank"><i class="bi bi-linkedin "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mb-2">
+
+                    <div class="row titulo kanit-bold p-5 text-center">
+                        <h1>Charlemos ;)</h1>
+                    </div>
+                    
+                    <form>
+                        <div class="input-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" placeholder="Nombre">
+                        
+                            <label for="phone">Telefono</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+
+                        <input class="btn" type="submit" value="Enviar">
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/javascript.js"></script>
+</body>
+</html>
